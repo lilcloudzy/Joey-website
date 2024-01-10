@@ -1,0 +1,139 @@
+@media (max-width: 768px) {
+  /* zagolovok */
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 84px;
+    margin: 0;
+  }
+  /* talk */
+  .talk {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .hello {
+    font-size: 16px;
+  }
+
+  .vertical-text {
+    font-size: 16px;
+  }
+  /* projects */
+  .text-block h2 {
+    font-size: 32px;
+  }
+  .text-block p {
+    font-size: 16px;
+  }
+  .more a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: flex-end;
+  }
+  /* expertise */
+
+  .Expertise .expertise-block p {
+    font-size: 32px;
+  }
+
+  /* text-cards */
+
+  .text-cards-block {
+    max-width: 688px;
+    flex-direction: column;
+  }
+
+  .text-cards-block .card-of-block {
+    max-width: 328px;
+  }
+
+  .text-cards-block .card-of-block h3 {
+    font-size: 24px;
+  }
+
+  .text-cards-block .card-of-block p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #lenta {
+    display: flex;
+    width: auto;
+    font-size: 84px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  /* test */
+
+  .test-block .test-left .testimonials {
+    font-size: 48px;
+  }
+
+  .test-block .test-left .test-text-left {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .lets-talk {
+    font-size: 79px;
+  }
+
+  .frame-959,
+  .frame-959 * {
+    box-sizing: border-box;
+  }
+  .frame-959 {
+    background: var(--black-black-500, #000000);
+    border-radius: 81.47px;
+    padding: 18.11px;
+    display: flex;
+    flex-direction: column;
+    gap: 4.53px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 148.07px;
+    position: relative;
+    overflow: hidden;
+  }
+  .frame-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 3.96px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hello-joey-co {
+    color: var(--white-white-500, #ffffff);
+    text-align: left;
+    font-family: "LabilGrotesk-Medium", sans-serif;
+    font-size: 11.31584644317627px;
+    line-height: 140%;
+    font-weight: 500;
+    position: relative;
+  }
+  .frame-960 {
+    flex-shrink: 0;
+    width: 11.19px;
+    height: 11.22px;
+    position: relative;
+  }
+  .frame {
+    width: 7.36px;
+    height: 8.49px;
+    position: absolute;
+    left: 5.19px;
+    top: 11.22px;
+    transform: translate(-5.19px, -11.22px);
+    overflow: visible;
+  }
+}

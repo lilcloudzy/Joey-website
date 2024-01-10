@@ -1,0 +1,493 @@
+body {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+}
+
+/* logo */
+
+.logo {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+/* nav panel */
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  justify-content: center;
+  display: flex;
+  width: 470px;
+  background-color: black;
+  border-radius: 80px;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 80px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* middle */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 227px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin: 0 auto; /* ��ентрируем блок по горизонтали */
+  max-width: 1220px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+  flex-direction: row;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.button-container {
+  padding-bottom: 32px;
+}
+
+.scroll-button {
+  display: inline-block;
+  padding: 32px;
+  background-color: #f9f9f9;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 80px;
+}
+
+/* lets talk container */
+
+.auto-layout-horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* Центрируем блок по горизонтали */
+  max-width: 1220px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 144px;
+}
+
+.talk {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hello {
+  font-size: 20px;
+}
+
+.vertical-text {
+  font-size: 20px;
+}
+
+/* project container */
+
+.project-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* Центрируем блок по горизонтали */
+  max-width: 1220px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.text-block p {
+  font-size: 20px;
+}
+
+.text-block h3 {
+  font-size: 48px;
+}
+
+.more a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+/* cards */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* Центрируем блок по горизонтали */
+  max-width: 1220px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-card {
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+}
+
+.top-text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 6px;
+}
+
+.bottom-text {
+  font-size: 20px;
+}
+
+.cards img {
+  width: 100%;
+}
+
+/* Expertise */
+
+.Expertise .expertise-block p {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 155px;
+  margin-bottom: 53px;
+}
+
+.Expertise {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* ��ентрируем блок по горизонтали */
+  max-width: 1220px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+/* text cards */
+
+.text-cards-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* ��ентрируем блок по горизонтали */
+  max-width: 1182px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-cards-block .card-of-block {
+  max-width: 454px;
+}
+
+.text-cards-block .card-of-block h3 {
+  font-size: 32px;
+}
+
+.text-cards-block .card-of-block p {
+  font-size: 20px;
+  line-height: 140%;
+}
+/* lenta */
+
+.lenta-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 74px;
+  margin-bottom: 80px;
+  /* align-items: center; */
+}
+
+#lenta {
+  display: flex;
+  width: auto;
+  font-size: 140px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* testimonials block */
+
+/* .test-block,
+.test-block * {
+  box-sizing: border-box;
+}
+.test-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; 
+  max-width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 140px;
+}
+.test-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonials {
+  display: flex;
+  text-align: left;
+  font-size: 64px;
+  line-height: 110%;
+  font-weight: bold;
+  position: relative;
+}
+.test-text-left {
+  display: flex;
+  padding-top: 40px;
+  text-align: left;
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+  width: 954px;
+}
+.test-text-right {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chris-ellington {
+  display: flex;
+  text-align: right;
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: bold;
+  position: relative;
+}
+.test-text-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  padding-top: 9px;
+}
+.product-lead {
+  display: flex;
+  text-align: left;
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 400;
+  position: relative;
+} */
+
+.test-block {
+  /* padding-top: 80px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1220px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: flex-end;
+  margin-bottom: 130px;
+}
+
+.test-block .test-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.test-block .test-left .testimonials {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.test-block .test-left .test-text-left {
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+.test-block .test-right .chris-ellington {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.test-block .test-right .product-lead {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* footer */
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.lets-talk-block {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.lets-talk {
+  font-size: 140px;
+}
+
+.frame-959 {
+  background: var(--black-black-500, #000000);
+  border-radius: 144px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 262px;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame-959:hover {
+  cursor: pointer;
+}
+
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.hello-joey-co {
+  color: var(--white-white-500, #ffffff);
+  text-align: left;
+  font-family: var(
+    --heading-h-5-font-family,
+    "LabilGrotesk-Medium",
+    sans-serif
+  );
+  font-size: var(--heading-h-5-font-size, 20px);
+  line-height: var(--heading-h-5-line-height, 140%);
+  font-weight: var(--heading-h-5-font-weight, 500);
+  position: relative;
+}
+.frame-960 {
+  flex-shrink: 0;
+  width: 19.8px;
+  height: 19.8px;
+  position: relative;
+}
+.frame {
+  width: 13px;
+  height: 15px;
+  position: absolute;
+  left: 9.19px;
+  top: 19.8px;
+  transform: translate(-9.19px, -19.8px);
+  overflow: visible;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1216px;
+  position: relative;
+  font-size: 14px;
+}
+._2023-made-by-djectstudio {
+  text-align: left;
+  position: relative;
+}
+.frame-977 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-shrink: 0;
+  position: relative;
+}
+.dribbble {
+  text-align: left;
+  position: relative;
+}
+.instagram {
+  text-align: left;
+  position: relative;
+}
+.linked-in {
+  text-align: left;
+  position: relative;
+}
